@@ -1,0 +1,37 @@
+[class|="product"] {
+  width: 350px;
+}
+
+.catalog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.blocks {
+  width: 350px;
+  height: 250px;
+}
+
+p {
+    text-align: end;
+    font-size: large;
+    font-weight: 700;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    color: rgb(31, 29, 29);
+}
